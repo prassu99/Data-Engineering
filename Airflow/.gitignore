@@ -1,1 +1,18 @@
+# Ignore Docker volumes
+logs/
+plugins/
+__pycache__/
 
+# Airflow dags output files (if any tmp files created)
+dags/*.pyc
+dags/__pycache__/
+
+# Python virtual environments
+venv/
+.env/
+
+# System files
+.DS_Store
+
+# Docker Compose-generated files
+docker-compose.override.yml
