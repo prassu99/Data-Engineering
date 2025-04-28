@@ -8,11 +8,8 @@ dags/*.pyc
 dags/__pycache__/
 
 # Python virtual environments
-venv/
-.env/
+.env
 
-# System files
-.DS_Store
 
 # Docker Compose-generated files
 docker-compose.override.yml
