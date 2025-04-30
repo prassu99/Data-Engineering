@@ -30,6 +30,7 @@ with DAG(
         task_id='run_my_python_function',
         python_callable=my_python_task,
     )
+    # run_python_function
 
 # Step 2F: Add a comment to explain the DAG
 # This DAG runs a Python function every 5 minutes
