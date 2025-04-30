@@ -4,7 +4,7 @@ import json
 
 def connect():
     # Load credentials from JSON file
-    with open('/opt/airflow/pg_creds.json') as f:
+    with open('/opt/airflow/dags/etl_extract/pg_creds.json') as f:
         creds = json.load(f)
 
     # Connect to your postgres DB
