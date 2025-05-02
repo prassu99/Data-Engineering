@@ -7,9 +7,9 @@ __pycache__/
 dags/*.pyc
 dags/__pycache__/
 
-# Python virtual environments
+# Python virtual environments and database files
 .env
-dags/etl_extract/pg_creds.json
+dags/etl_config/*_creds.json
 
 
 # Docker Compose-generated files
